@@ -1,0 +1,30 @@
+.promotion-card{
+    min-height: 200px;
+    padding: 10px;
+    cursor: pointer;
+}
+.promotion-card-offer p{
+    color: var(--bs-dark);
+    font-size: 19px;
+    font-weight: bold;
+}
+.promotion-card-image img{
+    max-height: 180px;
+}
+
+@media (max-width: 576px) {
+    .promotion-card-offer p {
+        font-size: 15px;
+        text-align: center;
+    }
+}
+@media (max-width: 350px) {
+    .promotion-card-image img{
+        max-width: 170px;
+    }
+}
+@media (max-width: 300px) {
+    .promotion-card-image img{
+        max-width: 130px;
+    }
+}

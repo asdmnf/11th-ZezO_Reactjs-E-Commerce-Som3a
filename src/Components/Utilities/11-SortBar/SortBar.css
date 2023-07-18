@@ -1,0 +1,28 @@
+.sort-bar{
+  margin-top: 20px;
+}
+.sort-bar-dropdown button{
+  border: none;
+  background-color: transparent;
+}
+.sort-bar-dropdown button i{
+  font-size: 20px;
+  margin-left: 5px;
+  color: var(--bs-danger);
+}
+.sort-bar-dropdown-item{
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .sort-bar{
+    margin-top: 170px;
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+  }
+}
+@media (max-width: 320px) {
+  .sort-bar{
+    margin-top: 220px;
+  }
+}

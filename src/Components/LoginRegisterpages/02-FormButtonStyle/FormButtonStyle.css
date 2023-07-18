@@ -1,0 +1,14 @@
+.form-btn-style{
+  background-color: var(--bs-dark);
+  color: var(--bs-light);
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: none;
+  transition: .2s ease;
+  position: relative;
+  
+}
+.form-btn-style:hover{
+  background-color: var(--bs-danger);
+  color: wheat;
+}

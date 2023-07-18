@@ -1,0 +1,47 @@
+.sidebar-filter{
+  position: relative;
+  right: 20px;
+  z-index: 9;
+}
+.sidebar-filter h5{
+  margin-top: 30px;
+}
+.sidebar-filter-item{
+  margin-top: 2px;
+  cursor: pointer;
+}
+.sidebar-filter-item input{
+  width: 17px;
+  height: 17px;
+  cursor: pointer;
+}
+.sidebar-filter-item label{
+  color: var(--bs-gray);
+  font-size: 14px;
+  margin-right: 10px;
+  cursor: pointer;
+  user-select: none;
+}
+.sidebar-filter-price{
+  margin-top: 15px;
+}
+.sidebar-filter-price input{
+  width: 70px;
+}
+.sidebar-filter-price label{
+  color: var(--bs-gray);
+  font-size: 14px;
+  margin-left: 10px;
+}
+
+@media (max-width: 576px) {
+  .sidebar-filter {
+    position: absolute;
+    background-color: var(--bs-warning);
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 5px;
+    margin-right: 5px;
+    box-shadow: 0 1rem 3rem rgba(0,0,0,.175) !important;
+  }
+}

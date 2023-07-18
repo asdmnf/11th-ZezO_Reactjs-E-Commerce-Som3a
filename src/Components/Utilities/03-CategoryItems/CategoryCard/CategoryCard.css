@@ -1,0 +1,15 @@
+.category-card-image{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.category-card-image img{
+    max-height:90px;
+    max-width: 190px;
+}
+.category-card-description{
+    font-size: 20px;
+    margin-top: 10px;
+    cursor: pointer;
+}

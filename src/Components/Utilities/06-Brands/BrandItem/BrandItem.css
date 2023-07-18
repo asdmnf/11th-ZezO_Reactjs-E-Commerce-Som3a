@@ -1,0 +1,24 @@
+.brand-item-img{
+    width: 150px;
+    height: 150px;
+}
+.brand-item-img img{
+    max-width: 150px;
+    max-height: 150px;
+    cursor: pointer;
+}
+
+/* admin controls */
+.admin-brandControls__remove{
+    color: var(--bs-danger);
+    font-size: 20px;
+    cursor: pointer;
+}
+.admin-brandControls__edit{
+    color: var(--bs-primary);
+    font-size: 20px;
+    cursor: pointer;
+}
+.admin-brandControls{
+    display: none;
+}

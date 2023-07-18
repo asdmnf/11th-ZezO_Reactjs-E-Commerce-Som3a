@@ -1,0 +1,8 @@
+.cart-counter-and-delete {
+  font-size: 20px !important;
+}
+@media (max-width: 320px) {
+  .cart-counter-and-delete {
+    font-size: 12px !important;
+  }
+}

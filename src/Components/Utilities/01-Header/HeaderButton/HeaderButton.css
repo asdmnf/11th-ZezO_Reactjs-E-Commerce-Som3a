@@ -1,0 +1,17 @@
+.header-button{
+    width: 90px;
+    border: 2px solid var(--bs-danger);
+    border-radius: 20px;
+    border-top-left-radius: 5px;
+    padding: 10px;
+    margin-left: 10px;
+    text-decoration: none;
+    transition: background-color .2s ease;
+}
+.header-button:hover{
+    background-color: var(--bs-danger);
+    color: var(--wheat);
+}
+.header-button i{
+    margin-left: 5px;
+}

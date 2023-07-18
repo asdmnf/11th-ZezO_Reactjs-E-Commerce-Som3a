@@ -1,0 +1,12 @@
+@media (max-width: 576px) {
+  .sideBar-and-products {
+    position: relative;
+  }
+  .sideBar-icon i {
+    margin-top: 20px;
+    margin-right: 50px;
+    font-size: 30px;
+    color: var(--bs-danger);
+    cursor: pointer;
+  }
+}

@@ -1,0 +1,26 @@
+@media (max-width: 768px) {
+  .cart-item-card-content__admin-order-number {
+    flex-direction: column-reverse;
+    gap: 10px;
+  }
+  .order-count-and-total {
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+  }
+}
+@media (max-width: 400px) {
+  .admin-order-code {
+    font-size: 13px;
+  }
+}
+@media (max-width: 340px) {
+  .admin-order-status, .order-information {
+    font-size: 13px;
+  }
+  .admin-order-code {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+}

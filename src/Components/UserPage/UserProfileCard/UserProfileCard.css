@@ -1,0 +1,36 @@
+.user-profile-card{
+  background-color: white;
+  padding: 20px;
+  border-radius: 20px;
+}
+.user-profile-card span{
+  color: var(--bs-gray);
+  padding-right: 5px;
+}
+.user-profile-card__remove-icon i{
+  font-size: 25px;
+  color: var(--bs-primary);
+  cursor: pointer;
+}
+
+
+.admin-controls_btns button {
+  padding: 10px 30px;
+  border-radius: 20px;
+  position: relative;
+}
+
+.admin-controls_btns-spinner{
+  position: absolute;
+  left: 5px;
+  top: 12px;
+  color: var(--bs-warning);
+  max-width: 20px;
+  max-height: 20px;
+}
+
+@media (max-width: 400px) {
+  .user-profile-card__name span, .user-profile-card__email span {
+    word-wrap: break-word;
+  }
+}

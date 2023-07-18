@@ -1,0 +1,30 @@
+.new-address-form input,
+.new-address-form textarea{
+  width: 100%;
+  margin-bottom: 20px;
+  padding-right: 10px;
+  border-radius: 10px;
+  border-width: 1px;
+}
+.new-address-form input{
+  height: 40px;
+}
+.new-address-form textarea{
+  height: 100px;
+  padding-top: 5px;
+}
+.new-address-form__btn button{
+  display: block;
+  margin-right: auto;
+  padding: 10px 30px;
+  border-radius: 20px;
+  position: relative;
+}
+.address-spinner{
+  position: absolute;
+  left: 5px;
+  top: 12px;
+  color: var(--bs-warning);
+  max-width: 20px;
+  max-height: 20px;
+}

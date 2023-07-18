@@ -1,0 +1,17 @@
+.address-card{
+  background-color: white;
+  border-radius: 20px;
+  padding: 20px;
+  color: var(--bs-gray);
+}
+.address-card__header-edit-icon i{
+  font-size: 20px;
+  color: var(--bs-primary);
+  margin-left: 20px;
+  cursor: pointer;
+}
+.address-card__header-remove-icon i{
+  font-size: 20px;
+  color: var(--bs-danger);
+  cursor: pointer;
+}

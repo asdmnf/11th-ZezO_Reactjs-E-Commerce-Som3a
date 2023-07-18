@@ -1,0 +1,22 @@
+.fees-card{
+  min-height: 100px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 20px;
+  position: relative;
+}
+.fees-card__edit-fees i{
+  font-size: 25px;
+  color: var(--bs-primary);
+  cursor: pointer;
+  position: absolute;
+  top: 15px;
+  left: 15px;
+}
+.fees-card span{
+  color: var(--bs-primary);
+  padding-right: 5px;
+}
+.change-fees input:focus{
+  outline: 1px solid black;
+}

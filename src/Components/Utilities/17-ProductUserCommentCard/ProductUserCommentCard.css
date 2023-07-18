@@ -1,0 +1,30 @@
+.user-comment-card-text{
+  color: var(--bs-gray);
+  font-size: 14px;
+  padding-bottom: 10px;
+}
+
+/* user controls */
+.user-controls__remove{
+  color: var(--bs-danger);
+  font-size: 20px;
+  cursor: pointer;
+}
+.user-controls__edit{
+  color: var(--bs-primary);
+  font-size: 20px;
+  cursor: pointer;
+}
+.user-controls{
+  display: none;
+}
+
+@media (max-width: 390px) {
+  .name-and-rating {
+    flex-direction: column;
+    text-align: center;
+  }
+  .name-and-rating-and-controls {
+    flex-direction: column;
+  }
+}

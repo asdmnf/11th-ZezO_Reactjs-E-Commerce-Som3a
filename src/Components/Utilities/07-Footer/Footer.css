@@ -1,0 +1,13 @@
+.footer{
+    height: 100px;
+    background-color: var(--bs-dark);
+    color: antiquewhite;
+    margin-top: 50px;
+}
+
+@media (max-width: 300px){
+    .footer {
+        display: flex;
+        flex-direction: column;
+    }
+}

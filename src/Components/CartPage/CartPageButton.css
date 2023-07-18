@@ -1,0 +1,11 @@
+.cart-page-btn button{
+  background-color: var(--bs-dark);
+  color: white;
+  border: none;
+  padding: 4px 8px;
+  transition: .2s ease;
+}
+.cart-page-btn button:hover{
+  background-color: var(--bs-danger);
+  color: wheat;
+}

@@ -1,0 +1,13 @@
+.main-carousel{
+    margin-top: 150px;
+}
+@media (max-width: 768px) {
+    .main-carousel{
+        margin-top: 245px;
+    }
+}
+@media (max-width: 320px) {
+    .main-carousel{
+        margin-top: 293px;
+    }
+}

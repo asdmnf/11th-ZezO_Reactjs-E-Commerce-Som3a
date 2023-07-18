@@ -1,0 +1,24 @@
+.coupon-card{
+  background-color: white;
+  border-radius: 20px;
+  padding: 20px;
+}
+.coupon-card__content h6 span{
+  color: var(--bs-gray);
+  margin-right: 10px;
+}
+.coupon-card__date{
+  font-size: 12px;
+}
+
+/* coupon controls */
+.coupon-controls__remove{
+  color: var(--bs-danger);
+  font-size: 20px;
+  cursor: pointer;
+}
+.coupon-controls__edit{
+  color: var(--bs-primary);
+  font-size: 20px;
+  cursor: pointer;
+}

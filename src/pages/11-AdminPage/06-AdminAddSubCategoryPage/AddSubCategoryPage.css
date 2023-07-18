@@ -1,0 +1,27 @@
+.add-sub-category input{
+  width: 100%;
+  height: 40px;
+  padding-right: 10px;
+  border-radius: 10px;
+  border-width: 1px;
+}
+.add-sub-category__select select{
+  width: 100%;
+  height: 40px;
+  margin-top: 15px;
+  padding-right: 10px;
+  border-radius: 10px;
+  color: var(--bs-gray);
+}
+.add-sub-category__btn button{
+  display: block;
+  margin-right: auto;
+  padding: 10px 30px;
+  margin-top: 5px;
+  border-radius: 20px;
+  position: relative;
+}
+
+.admin-subCategory-item {
+  cursor: pointer;
+}

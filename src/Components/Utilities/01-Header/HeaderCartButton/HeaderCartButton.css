@@ -1,0 +1,28 @@
+.header-cart-button{
+  width: 90px;
+  border: 2px solid var(--bs-danger);
+  border-radius: 20px;
+  border-top-left-radius: 5px;
+  padding: 10px;
+  margin-left: 10px;
+  text-decoration: none;
+  transition: background-color .2s ease;
+  position: relative;
+}
+.header-cart-button:hover{
+  background-color: var(--bs-danger);
+  color: var(--wheat);
+}
+.header-cart-button i{
+  margin-left: 5px;
+}
+.header-cart-button .cart-count{
+  width: 35px;
+  height: 20px;
+  color: wheat;
+  background-color: var(--bs-danger);
+  outline: 3px solid var(--bs-dark);
+  position: absolute;
+  top: -10px;
+  left: -20px;
+}

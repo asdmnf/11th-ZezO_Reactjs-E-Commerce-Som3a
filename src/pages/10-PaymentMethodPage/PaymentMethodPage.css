@@ -1,0 +1,74 @@
+.payment-method{
+  min-height: 200px;
+  background-color: white;
+  border-radius: 20px;
+  padding: 20px;
+}
+.payment-method___total-price{
+  background-color: var(--bs-dark);
+  color: white;
+  padding: 4px 8px;
+  border-left: 2px solid white;
+}
+.payment-method___visa input,
+.payment-method___cash input{
+  width: 20px;
+  height: 20px;
+  margin-left: 5px;
+  cursor: pointer;
+}
+.payment-method___visa label,
+.payment-method___cash label{
+  cursor: pointer;
+}
+.payment-method___proceed-btn button{
+  padding-left: 20px;
+  padding-right: 20px;
+  position: relative;
+}
+.buy-item-spinner{
+  position: absolute;
+  left: 3px;
+  top: 9px;
+  color: var(--bs-warning);
+  max-width: 15px;
+  max-height: 15px;
+}
+
+
+/* جديد */
+.online-payment-info-card{
+  background-color: #ffc10744;
+  max-width: 500px;
+  padding: 20px;
+  border-radius: 20px;
+  margin-top: 20px;
+}
+.online-payment-info-card h1 {
+  font-size: 20px;
+}
+.online-payment-info-card ul {
+  margin-right: 20px;
+  margin-top: 20px;
+}
+.online-payment-info-card ul li {
+  margin-top: 6px;
+}
+.online-payment-info-card ul li span {
+  color: var(--bs-primary);
+  margin-right: 10px;
+}
+
+@media (max-width: 400px) {
+  .total-and-proceed {
+    flex-direction: column;
+  }
+  .payment-method___total-price {
+    text-align: center;
+    margin-bottom: 5px;
+  }
+  .payment-method___proceed-btn {
+    display: flex;
+    justify-content: center;
+  }
+}

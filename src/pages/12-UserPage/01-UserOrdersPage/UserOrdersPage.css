@@ -1,0 +1,10 @@
+@media (max-width: 768px) {
+  .admin-header {
+    margin-top: 120px;
+  }
+}
+@media (max-width: 320px) {
+  .admin-header {
+    margin-top: 160px;
+  }
+}

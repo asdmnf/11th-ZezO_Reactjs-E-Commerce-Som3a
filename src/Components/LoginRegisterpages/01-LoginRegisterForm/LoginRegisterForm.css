@@ -1,0 +1,18 @@
+
+.login-form input,
+.login-form button{
+  min-height: 50px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+.login-form input{
+  direction: ltr;
+  padding-left: 10px;
+}
+.login-form input::placeholder{
+  font-size: 14px;
+  text-align: center;
+}
+.login-form input:focus-visible{
+  outline-color: var(--bs-danger);
+}

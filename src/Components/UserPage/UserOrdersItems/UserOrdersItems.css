@@ -1,0 +1,33 @@
+.user-orders-items{
+  background-color: var(--bs-gray-200);
+  padding: 20px;
+  border-radius: 20px;
+}
+.user-orders-items h6{
+  color: var(--bs-gray);
+}
+.user-orders-items h6 span{
+  color: var(--bs-primary);
+}
+.user-orders-items__info{
+  font-size: 10px;
+}
+.user-orders-items__info i{
+  margin-top: 1px;
+}
+
+@media (max-width: 768px) {
+  .code-and-date {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
+@media (max-width: 400px) {
+  .order-code {
+    text-align: center;
+  }
+  .status-and-total {
+    flex-direction: column-reverse;
+    gap: 15px;
+  }
+}
