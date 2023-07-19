@@ -45,7 +45,7 @@ function App() {
 
   const anyData = useSelector(state => state.linkReducer.anyData)
   return (
-    <Router>
+    <Router basename="/11th-ZezO_Reactjs-E-Commerce-Som3a">
       <ScrollToTop></ScrollToTop>
       <Header></Header>
       <FloatingEmailIcon></FloatingEmailIcon>
