@@ -18,6 +18,7 @@
     "react-detect-offline": "^2.4.5",
     "react-dom": "^18.2.0",
     "react-dropdown-select": "^4.9.0",
+    "react-elastic-carousel": "^0.11.5",
     "react-multiple-image-input": "^1.0.0",
     "react-paginate": "^8.1.4",
     "react-rating-stars-component": "^2.2.0",

@@ -16,7 +16,7 @@ import Button from "react-bootstrap/Button";
 import "./ProductPage.css";
 
 import ProdectItemCard from "../../Components/Utilities/04-ProdectItems/ProdectItemCard/ProdectItemCard";
-// import Carousel from 'react-elastic-carousel'
+import Carousel from 'react-elastic-carousel'
 
 const ProductPage = () => {
   const [isLoaded, specificProductData, allCategoryProductsIsLoaded, filteredAllCategoryProducts, reviewInputOnChangeHandle, reviewInput, addReviewOnClickHandle, ratingStarsOnChangeHandle, ratingStars, allReviewsData, allReviewsDataIsLoaded, editCommentOnClickHandle, removeCommentOnClickHandle, lsUserData, show, handleClose, saveReviewEditOnClickHandle, editReviewInputOnChangeHandle, editReviewInput, isUserCommented, wishListData, wishListDataIsLoaded] = ProductPageHook();
@@ -156,7 +156,7 @@ const ProductPage = () => {
         <div className={`${allCategoryProductsIsLoaded && filteredAllCategoryProducts?.length ? `` : `d-none`}`}>
           <CategoryHeader BtnDisplay="d-none">منتجات ذات صلة</CategoryHeader>
 
-          {/* <Carousel breakPoints={breakPoints} pagination={false} itemPadding={[0, 2]}>
+          <Carousel breakPoints={breakPoints} pagination={false} itemPadding={[0, 2]}>
             {
               filteredAllCategoryProducts?.map(item => {
                 return (
@@ -177,7 +177,7 @@ const ProductPage = () => {
                 )
               })
             }
-</Carousel> */}
+</Carousel>
 
 
 
