@@ -4,6 +4,11 @@ This project was deployed at [11th-ZezO_Reactjs-E-Commerce-Som3a](https://asdmnf
 
 ### `Note`
 
+this project is achieved by:\
+Reactjs Framework\
+Redux\
+Bootstrap\
+
 may be this project is not completed as i wish.\
 but i prefer to keep it like that to remember my begins.
 
