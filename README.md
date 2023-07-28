@@ -1,3 +1,16 @@
+# Getting Started with 11th-ZezO_Reactjs-E-Commerce-Som3a
+
+This project was deployed at [11th-ZezO_Reactjs-E-Commerce-Som3a](https://asdmnf.github.io/11th-ZezO_Reactjs-E-Commerce-Som3a/).
+
+### `Note`
+
+may be this project is not completed as i wish.\
+but i prefer to keep it like that to remember my begins.
+
+
+<!-- 
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -67,4 +80,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 ### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify) -->
