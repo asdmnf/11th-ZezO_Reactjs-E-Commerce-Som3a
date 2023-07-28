@@ -4,12 +4,12 @@ This project was deployed at [11th-ZezO_Reactjs-E-Commerce-Som3a](https://asdmnf
 
 ### `Note`
 
+i think it is fully SPA (Single Page Application) no need to reload at all.
+
 this project is achieved by:\
 Reactjs Framework\
 Redux\
 Bootstrap
-
-i think it is fully SPA (Single Page Application) no need to reload at all.
 
 may be this project is not completed as i wish.\
 but i prefer to keep it like that to remember my begins.
