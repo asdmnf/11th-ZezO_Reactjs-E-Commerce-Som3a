@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import Header from "./Components/Utilities/01-Header/Header";
 import Footer from "./Components/Utilities/07-Footer/Footer";
 import HomePage from "./pages/01-HomePage/HomePage";
@@ -45,13 +45,13 @@ function App() {
 
   const anyData = useSelector(state => state.linkReducer.anyData)
   return (
-    <Router basename="/11th-ZezO_Reactjs-E-Commerce-Som3a">
+    <Router>
       <ScrollToTop></ScrollToTop>
       <Header></Header>
       <FloatingEmailIcon></FloatingEmailIcon>
       <Routes>
         {/* <Route path="*" element={<NotFoundPage></NotFoundPage>}></Route> */}
-        <Route exact path="/11th-ZezO_Reactjs-E-Commerce-Som3a" element={<HomePage></HomePage>}></Route>
+        <Route path="/" element={<HomePage></HomePage>}></Route>
         <Route path="/categories" element={<CategoryPage></CategoryPage>}></Route>
         <Route path="/brands" element={<BrandsPage></BrandsPage>}></Route>
         <Route path="/product/:id" element={<ProductPage></ProductPage>}></Route>
