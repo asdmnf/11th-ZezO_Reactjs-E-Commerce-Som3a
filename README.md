@@ -8,7 +8,7 @@ i think it is fully SPA (Single Page Application) no need to reload at all.
 
 this project is achieved by:\
 Reactjs Framework\
-Redux with Axios
+Redux with Axios\
 Bootstrap
 
 may be this project is not completed as i wish.\
