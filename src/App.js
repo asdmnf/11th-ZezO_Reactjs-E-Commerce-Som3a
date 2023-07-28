@@ -51,7 +51,7 @@ function App() {
       <FloatingEmailIcon></FloatingEmailIcon>
       <Routes>
         <Route path="*" element={<NotFoundPage></NotFoundPage>}></Route>
-        <Route path="/11th-ZezO_Reactjs-E-Commerce-Som3a/" element={<HomePage></HomePage>}></Route>
+        <Route path="/" element={<HomePage></HomePage>}></Route>
         <Route path="/categories" element={<CategoryPage></CategoryPage>}></Route>
         <Route path="/brands" element={<BrandsPage></BrandsPage>}></Route>
         <Route path="/product/:id" element={<ProductPage></ProductPage>}></Route>
