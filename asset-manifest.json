@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/11th-ZezO_Reactjs-E-Commerce-Som3a/static/css/main.1159f2f5.css",
+    "main.css": "/11th-ZezO_Reactjs-E-Commerce-Som3a/static/css/main.369a24aa.css",
     "main.js": "/11th-ZezO_Reactjs-E-Commerce-Som3a/static/js/main.5977e5c1.js",
     "static/media/laptop.png": "/11th-ZezO_Reactjs-E-Commerce-Som3a/static/media/laptop.9fbf0d11c29233dddf25.png",
     "static/media/mobile.png": "/11th-ZezO_Reactjs-E-Commerce-Som3a/static/media/mobile.0719555e7021ab6cded6.png",
     "static/media/Logo-png.png": "/11th-ZezO_Reactjs-E-Commerce-Som3a/static/media/Logo-png.dc17b2b35d91025bf287.png",
     "static/media/add-image.png": "/11th-ZezO_Reactjs-E-Commerce-Som3a/static/media/add-image.f86f408f8923282fb1d5.png",
     "index.html": "/11th-ZezO_Reactjs-E-Commerce-Som3a/index.html",
-    "main.1159f2f5.css.map": "/11th-ZezO_Reactjs-E-Commerce-Som3a/static/css/main.1159f2f5.css.map",
+    "main.369a24aa.css.map": "/11th-ZezO_Reactjs-E-Commerce-Som3a/static/css/main.369a24aa.css.map",
     "main.5977e5c1.js.map": "/11th-ZezO_Reactjs-E-Commerce-Som3a/static/js/main.5977e5c1.js.map"
   },
   "entrypoints": [
-    "static/css/main.1159f2f5.css",
+    "static/css/main.369a24aa.css",
     "static/js/main.5977e5c1.js"
   ]
 }
