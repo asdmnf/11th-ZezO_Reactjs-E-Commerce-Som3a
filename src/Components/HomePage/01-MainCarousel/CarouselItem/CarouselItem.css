@@ -42,7 +42,7 @@
 @media (max-width: 768px) {
     .main-carousel-item {
         flex-direction: column;
-        background-position: center center;
+        /* background-position: center center; */
     }
     .main-carousel-item img{
         max-height: 300px;
