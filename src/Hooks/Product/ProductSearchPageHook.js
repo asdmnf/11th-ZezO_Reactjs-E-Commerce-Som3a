@@ -10,7 +10,7 @@ import { queryProduct } from "../../Redux/Actions/productAction/productAction";
 const ProductSearchPageHook = () => {
 
   // ايكونة التوجل بتاعة الريسبونسيف
-  const [showSideBar, setShowSideBar] = useState(true)
+  const [showSideBar, setShowSideBar] = useState(false)
   const toggleSideBarOnClickHandle = () => {
     setShowSideBar(!showSideBar)
   }

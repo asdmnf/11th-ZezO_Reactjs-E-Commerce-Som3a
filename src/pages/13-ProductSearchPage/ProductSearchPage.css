@@ -9,4 +9,7 @@
     color: var(--bs-danger);
     cursor: pointer;
   }
+  .sideBar {
+    display: none;
+  }
 }

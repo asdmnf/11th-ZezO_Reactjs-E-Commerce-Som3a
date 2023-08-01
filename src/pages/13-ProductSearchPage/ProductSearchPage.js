@@ -22,7 +22,7 @@ const ProductSearchPage = () => {
         <div className="sideBar-icon d-sm-none" onClick={toggleSideBarOnClickHandle}>
           <i className="fa-solid fa-gears"></i>
         </div>
-        <div className={`sideBar col-sm-3 col-md-2 ${showSideBar === true ? "" : "d-none"}`}>
+        <div className={`sideBar col-sm-3 col-md-2 ${showSideBar === true ? "d-block" : ""}`}>
         <SideBarFilter 
         categoryInputOnChangeHandle = {categoryInputOnChangeHandle} 
         brandInputOnChangeHandle = {brandInputOnChangeHandle}

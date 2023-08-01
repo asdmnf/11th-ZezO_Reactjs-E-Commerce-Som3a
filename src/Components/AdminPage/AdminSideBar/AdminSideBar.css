@@ -63,6 +63,9 @@
     top: 180px;
     right: 10px;
   }
+  .side-bar__items {
+    height: 300px;
+  }
 }
 @media (max-width: 320px) {
   .side-bar {
@@ -77,6 +80,20 @@
     right: 10px;
   }
   .side-bar__items {
-    height: 335px;
+    height: 250px;
+  }
+}
+
+@media (max-height: 700px) {
+  .side-bar__items {
+    overflow: scroll;
+  }
+  .side-bar__items {
+    max-height:400px;
+  }
+}
+@media (max-height: 660px) {
+  .side-bar__items {
+    max-height:300px;
   }
 }
