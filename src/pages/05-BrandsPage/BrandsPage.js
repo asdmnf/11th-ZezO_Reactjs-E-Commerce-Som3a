@@ -10,9 +10,11 @@ const BrandsPage = () => {
   const [totalPages, pageNumHandle, data, isLoaded] = BrandsPageHook();
   return (
     <SectionContainer>
-      <CategoryHeader BtnDisplay="d-none">
-        اشهر الماركات العالمية
-      </CategoryHeader>
+      <div className="brand-page-header">
+        <CategoryHeader BtnDisplay="d-none">
+          اشهر الماركات العالمية
+        </CategoryHeader>
+      </div>
       <div className="row g-2 my-2 d-flex justify-content-center align-items-center">
         {isLoaded ? (
           data.data ? (

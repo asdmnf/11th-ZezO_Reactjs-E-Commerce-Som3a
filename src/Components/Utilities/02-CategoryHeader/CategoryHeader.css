@@ -8,7 +8,7 @@
     font-weight: 600;
 }
 
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
     .category-header{
         margin-top: 170px;
     }
@@ -17,4 +17,4 @@
     .category-header{
         margin-top: 220px;
     }
-}
+} */

@@ -1,6 +1,8 @@
 .main-carousel-item{
     height: 430px;
-    background-size: cover;
+    background-color: var(--bs-gray-600);
+    background-size: contain;
+    background-position: center center;
     background-repeat: no-repeat;
     cursor: pointer;
     position: relative;

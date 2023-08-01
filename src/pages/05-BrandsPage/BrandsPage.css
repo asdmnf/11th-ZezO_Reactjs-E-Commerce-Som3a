@@ -1,0 +1,10 @@
+@media (max-width: 768px) {
+  .brand-page-header .category-header{
+      margin-top: 170px;
+  }
+}
+@media (max-width: 320px) {
+  .brand-page-header .category-header{
+      margin-top: 220px;
+  }
+}

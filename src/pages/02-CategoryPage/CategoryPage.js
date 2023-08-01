@@ -13,7 +13,9 @@ const CategoryPage = () => {
 
   return (
     <SectionContainer>
-      <CategoryHeader BtnDisplay="d-none">التصنيفات</CategoryHeader>
+      <div className="category-page-header">
+        <CategoryHeader BtnDisplay="d-none">التصنيفات</CategoryHeader>
+      </div>
       <div className='container'>
       <div className="row justify-content-center align-items-center my-5">
         
