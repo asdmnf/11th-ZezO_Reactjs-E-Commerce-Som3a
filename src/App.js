@@ -50,7 +50,7 @@ function App() {
       <Header></Header>
       <FloatingEmailIcon></FloatingEmailIcon>
       <Routes>
-        <Route path="*" element={<NotFoundPage></NotFoundPage>}></Route>
+        <Route path="/*" element={<NotFoundPage></NotFoundPage>}></Route>
         <Route path="/" element={<HomePage></HomePage>}></Route>
         <Route path="/categories" element={<CategoryPage></CategoryPage>}></Route>
         <Route path="/brands" element={<BrandsPage></BrandsPage>}></Route>
