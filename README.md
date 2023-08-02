@@ -4,7 +4,7 @@ This project was deployed at [11th-ZezO_Reactjs-E-Commerce-Som3a](https://asdmnf
 
 ### `Admin Account`
 
-Email: admin@admin.com
+Email: admin@admin.com\
 Pass: 123456
 
 * current content is protected
