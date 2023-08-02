@@ -2,6 +2,14 @@
 
 This project was deployed at [11th-ZezO_Reactjs-E-Commerce-Som3a](https://asdmnf.github.io/11th-ZezO_Reactjs-E-Commerce-Som3a/).
 
+### `Admin Account`
+
+Email: admin@admin.com
+Pass: 123456
+
+* current content is protected
+new content only can be edited or deleted
+
 ### `Note`
 
 i think it is fully SPA (Single Page Application) no need to reload at all.
