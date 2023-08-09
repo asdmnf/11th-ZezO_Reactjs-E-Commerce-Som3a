@@ -10,7 +10,9 @@ const PaymentMethodPage = () => {
   const [allCartDataIsLoaded, allCartData, allAddressesDataIsLoaded, allAddressesData, addressSelectOnChangeHandle, buyItemsOnClickHandle, visaSelectOnChangeHandle, cashSelectOnChangeHandle, loader, addressTitle, addressDetails, addressphone, paymentMethod] = PaymentMethodPageHook();
   return (
     <SectionContainer>
-      <CategoryHeader BtnDisplay="d-none">إختر طريقة الدفع</CategoryHeader>
+      <div className="payment-page-category-header">
+        <CategoryHeader BtnDisplay="d-none">إختر طريقة الدفع</CategoryHeader>
+      </div>
       <div className="container">
         <div className="row">
           <div className="col-sm-12">

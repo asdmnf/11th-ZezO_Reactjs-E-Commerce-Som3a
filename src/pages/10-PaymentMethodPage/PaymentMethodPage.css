@@ -72,3 +72,15 @@
     justify-content: center;
   }
 }
+
+
+@media (max-width: 768px) {
+  .payment-page-category-header{
+      margin-top: 170px;
+  }
+}
+@media (max-width: 320px) {
+  .payment-page-category-header{
+      margin-top: 220px;
+  }
+}
