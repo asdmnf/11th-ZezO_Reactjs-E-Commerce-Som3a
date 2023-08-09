@@ -18,7 +18,7 @@ const ProductSearchPage = () => {
           searchDataTotalResults ? searchDataTotalResults : `0`
         }`}
       ></SortBar>
-      <div className="sideBar-and-products row m-0">
+      <div className="sideBar-and-products row m-0 p-0">
         <div className="sideBar-icon d-sm-none" onClick={toggleSideBarOnClickHandle}>
           <i className="fa-solid fa-gears"></i>
         </div>
