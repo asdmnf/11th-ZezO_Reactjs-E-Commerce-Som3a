@@ -9,10 +9,10 @@ const UserOrderDetailsPage = () => {
     <SectionContainer>
       <div className="container mt-5">
         <div className="row">
-          <div className="col-3">
+          <div className="col-lg-3">
             <UserSideBar></UserSideBar>
           </div>
-          <div className="col-9">
+          <div className="col-lg-9">
             <div className="admin-header my-3">
               تفاصيل الطلب رقم: <span>{specificOrderDataIsLoaded && specificOrderData.data ? specificOrderData.data._id : '...'}#</span>
             </div>
