@@ -9,11 +9,13 @@ const CartPage = () => {
   const [allCartDataIsLoaded, allCartData, deleteCartItemOnClickHandle, clearAllCartOnClickHandle, applyCouponOnClickHandle, applyCouponInput, applyCouponInputOnChangeHandle, loader]   = CartPageHook()
   return (
     <SectionContainer>
-        <CategoryHeader BtnDisplay="d-none">عربة التسوق <span className='cart-counter-and-delete text-dark' >( {
-          allCartDataIsLoaded && allCartData.status === 200 ? (allCartData.numberOfCartItems) : 0
-        } منتج متاح <i className={`fa-solid fa-trash text-danger ${
-          allCartDataIsLoaded && allCartData.status === 200 && allCartData.numberOfCartItems !== 0 ? (``) : `d-none` 
-        }`} title='حذف الكل' style={{cursor: "pointer"}} onClick={clearAllCartOnClickHandle} ></i> )</span></CategoryHeader>
+        <div className="cart-page-category-header">
+          <CategoryHeader BtnDisplay="d-none">عربة التسوق <span className='cart-counter-and-delete text-dark' >( {
+            allCartDataIsLoaded && allCartData.status === 200 ? (allCartData.numberOfCartItems) : 0
+          } منتج متاح <i className={`fa-solid fa-trash text-danger ${
+            allCartDataIsLoaded && allCartData.status === 200 && allCartData.numberOfCartItems !== 0 ? (``) : `d-none`
+          }`} title='حذف الكل' style={{cursor: "pointer"}} onClick={clearAllCartOnClickHandle} ></i> )</span></CategoryHeader>
+        </div>
       <div className="cart-page container">
         <div className="row">
           <div className="col-lg-9">
