@@ -31,7 +31,7 @@ const UserOrdersPage = () => {
                               orderDate={item.createdAt}
                           ></UserOrdersItems>
                   })
-                ) : <h1>لا توجد طلبات</h1>
+                ) : <h1>جارى التحميل</h1>
               }
             </div>
           </div>
