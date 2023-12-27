@@ -2,6 +2,8 @@
 
 This project was deployed at [11th-ZezO_Reactjs-E-Commerce-Som3a](https://asdmnf.github.io/11th-ZezO_Reactjs-E-Commerce-Som3a/).
 
+**[Video Preview](https://youtu.be/VKJYR7I_7Nw)**.
+
 ### `Admin Account`
 
 Email: admin@admin.com\
