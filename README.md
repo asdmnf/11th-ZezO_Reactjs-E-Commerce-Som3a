@@ -11,25 +11,6 @@ Pass: 123456
 
 > current content is protected, new content only can be edited or deleted
 
-### `Tech Stack`
-
-* ReactJS
-* HTML
-* CSS
-* BOOTSTRAP
-* axios
-* multiselect-react-dropdown
-* styled-components
-* react-bootstrap
-* react-color
-* react-elastic-carousel
-* react-rating-stars-component
-* redux
-* redux-thunk
-* react-redux
-* react-toastify
-* sweetalert2
-
 ### `Feautures`
 
 * Authentication
@@ -54,6 +35,25 @@ Pass: 123456
 * Order Details for both Admin and User
 * Delivery and Special Updates from Admin to User
 * Pagination and more…
+
+### `Tech Stack`
+
+* ReactJS
+* HTML
+* CSS
+* BOOTSTRAP
+* axios
+* multiselect-react-dropdown
+* styled-components
+* react-bootstrap
+* react-color
+* react-elastic-carousel
+* react-rating-stars-component
+* redux
+* redux-thunk
+* react-redux
+* react-toastify
+* sweetalert2
 
 ### `Note`
 
