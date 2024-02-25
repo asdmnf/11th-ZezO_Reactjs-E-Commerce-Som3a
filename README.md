@@ -11,10 +11,6 @@ Pass: 123456
 
 > current content is protected, new content only can be edited or deleted
 
-### `Note`
-
-i think it is fully SPA (Single Page Application) no need to reload at all.
-
 ### `Tech Stack`
 
 * ReactJS
@@ -58,3 +54,7 @@ i think it is fully SPA (Single Page Application) no need to reload at all.
 * Order Details for both Admin and User
 * Delivery and Special Updates from Admin to User
 * Pagination and more…
+
+### `Note`
+
+i think it is fully SPA (Single Page Application) no need to reload at all.
